@@ -42,3 +42,11 @@ DELETE FROM table_name
 WHERE some_column = some_value;
 ```
 ```DELETE``` statements are used to remove rows from a table.
+
+**BETWEEN**
+
+```
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value_1 AND value_2;```
+The ```BETWEEN``` operator is used to filter the result set within a certain range. The values can be numbers, text or dates.
