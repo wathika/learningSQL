@@ -26,3 +26,19 @@ SELECT column_name FROM table_name;
 
 ```SELECT```specifies that the statement is going to be a query that returns unique values in the specified column(s).
 
+
+**UPDATE**
+```
+UPDATE table_name
+SET some_column = some_value
+WHERE some_column = some_value;
+```
+```UPDATE``` statments allow you to edit rows in a table.
+
+
+**DELETE**
+```
+DELETE FROM table_name 
+WHERE some_column = some_value;
+```
+```DELETE``` statements are used to remove rows from a table.
