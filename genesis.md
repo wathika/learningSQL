@@ -18,4 +18,11 @@ CREATE TABLE table_name (
 ```CREATE TABLE``` creates a new table in the db. Allows to specify the table_name and name of each column.
 
 **SELECT**
+```
+SELECT * FROM table_name;
+
+SELECT column_name FROM table_name;
+```
+
+```SELECT```specifies that the statement is going to be a query that returns unique values in the specified column(s).
 
