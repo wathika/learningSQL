@@ -6,7 +6,6 @@ SQL, 'Structured Query Language', is a programming language designed to manage d
 **Commands**
 
 **CREATE TABLE**
-
 ```
 CREATE TABLE table_name (
     Column_one datatype,
@@ -17,3 +16,6 @@ CREATE TABLE table_name (
 ```
 
 ```CREATE TABLE``` creates a new table in the db. Allows to specify the table_name and name of each column.
+
+**SELECT**
+
