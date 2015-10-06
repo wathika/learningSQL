@@ -50,3 +50,12 @@ SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value_1 AND value_2;```
 The ```BETWEEN``` operator is used to filter the result set within a certain range. The values can be numbers, text or dates.
+
+**GROUP BY**
+
+```
+SELECT COUNT(*)
+FROM table_name
+GROUP BY column_name;
+```
+```GROUP BY``` is a clause in SQL that is only used with aggregate functions. It is used in collaboration with the SELECT statement to arrange identical data into groups.
